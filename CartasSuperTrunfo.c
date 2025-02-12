@@ -19,6 +19,7 @@ int main() {
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+    printf("******Bem vindo ao desafio superTrunfo Novato!******\n");
     printf("Digite o estado: ");
     scanf("%s", &estado);
     printf("Digite o codigo da cidade: ");
@@ -43,6 +44,7 @@ int main() {
     printf("Area: %f\n", area);
     printf("PIB: %f\n", pib);
     printf("Pontos turisticos: %d\n", pontos_turisticos);
+    printf("Obrigado pela visualizacao ");
 
     return 0;
 }
